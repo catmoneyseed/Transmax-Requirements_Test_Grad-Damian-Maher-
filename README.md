@@ -24,8 +24,8 @@ e.g.
   
 Hit enter, and the app will output a sorted version of your input file as well as 
 save a .txt file of the solution to the same directory where the original input
-file is located. 
-
+file is located. The console will remain open and display the solution until any key
+is pressed, upon which the application will close.
 
 EXTRA
 
