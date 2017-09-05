@@ -7,10 +7,6 @@ using System.Diagnostics;
 
 namespace FileTest.Test
 {
-    /// <summary>
-    /// Provides a test to check that the correct sorting 
-    /// of an input file takes place.
-    /// </summary>
     [TestClass]
     public class FileTest
     {

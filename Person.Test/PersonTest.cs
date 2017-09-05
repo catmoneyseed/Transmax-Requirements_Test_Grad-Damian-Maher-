@@ -4,11 +4,6 @@ using Requirements_Test_Grad;
 
 namespace PersonTest.Test
 {
-    /// <summary>
-    /// Provides methods to check Person constructor, 
-    /// and correct retrieval of person attributes including
-    /// first name, last name, and score.
-    /// </summary>
     [TestClass]
     public class PersonTest
     {
