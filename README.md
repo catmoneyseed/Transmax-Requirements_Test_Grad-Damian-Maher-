@@ -25,3 +25,18 @@ e.g.
 Hit enter, and the app will output a sorted version of your input file as well as 
 save a .txt file of the solution to the same directory where the original input
 file is located. 
+
+
+EXTRA
+
+the following is a link to an appveyor project for this assignment:
+
+https://ci.appveyor.com/project/catmoneyseed/transmax-requirements-test-grad-damian-maher 
+
+I managed to have it build the project on checkin, however, my unit tests are being discovered
+but not executed. 
+
+
+Thanks for the opportunity to have a go at this assignment. 
+
+
