@@ -14,13 +14,11 @@ namespace FileTest.Test
     [TestClass]
     public class FileTest
     {
-
-        public static InputFile file = new InputFile();
-
         [TestMethod]
         public void Test_SortFile()
         {
             // Arrange
+            InputFile file = new InputFile();
             List<Person> expectedSorted = new List<Person>();
             expectedSorted.Add(new Person("BUNDY", "TERESSA", 88));
             expectedSorted.Add(new Person("KING", "MADISON", 88));

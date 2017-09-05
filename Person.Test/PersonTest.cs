@@ -12,12 +12,10 @@ namespace PersonTest.Test
     [TestClass]
     public class PersonTest
     {
-        // Initialise Person
-        Person testPerson = new Person("Smith", "John", 85);
-
         [TestMethod]
         public void Test_Person()
         {
+            Person testPerson = new Person("Smith", "John", 85);
             // Assert
             Assert.IsNotNull(testPerson);
         }
@@ -26,6 +24,7 @@ namespace PersonTest.Test
         public void Test_PersonString()
         {
             // Arrange
+            Person testPerson = new Person("Smith", "John", 85);
             String expected = "Smith, John, 85";
             // Act
             String actual = testPerson.PersonToString();
@@ -37,6 +36,7 @@ namespace PersonTest.Test
         public void Test_GetPersonLastName()
         {
             // Arrange
+            Person testPerson = new Person("Smith", "John", 85);
             String expected = "Smith";
             // Act
             String actual = testPerson.GetLastName();
@@ -48,6 +48,7 @@ namespace PersonTest.Test
         public void Test_GetPersonFirstName()
         {
             // Arrange
+            Person testPerson = new Person("Smith", "John", 85);
             String expected = "John";
             // Act
             String actual = testPerson.GetFirstName();
@@ -59,6 +60,7 @@ namespace PersonTest.Test
         public void Test_GetPersonScore()
         {
             // Arrange
+            Person testPerson = new Person("Smith", "John", 85);
             int expected = 85;
             // Act
             int actual = testPerson.GetScore();
