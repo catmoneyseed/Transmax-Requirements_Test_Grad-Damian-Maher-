@@ -34,7 +34,7 @@ the following is a link to an appveyor project for this assignment:
 https://ci.appveyor.com/project/catmoneyseed/transmax-requirements-test-grad-damian-maher 
 
 I managed to have it build the project on checkin, however, my unit tests are being discovered
-but not executed. 
+but not executed by the appveyor platform. 
 
 
 Thanks for the opportunity to have a go at this assignment. 
