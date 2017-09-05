@@ -7,7 +7,7 @@ namespace PersonTest.Test
     [TestClass]
     public class PersonTest
     {
-        [TestMethod, TestCategory("A")]
+        [TestMethod]
         public void Test_Person()
         {
             Person testPerson = new Person("Smith", "John", 85);
